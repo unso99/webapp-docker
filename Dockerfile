@@ -21,6 +21,6 @@ RUN echo '. /etc/apache2/envvars' > /webapp/run_http.sh && \
 # 80번 포트 오픈
 EXPOSE 80
 
-$ RUN 명령어로 작성된 셀 스크립트를 컨테이너가 동작할 때 실행
+# RUN 명령어로 작성된 셀 스크립트를 컨테이너가 동작할 때 실행
 CMD /webapp/run_http.sh
     
